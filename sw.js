@@ -1,8 +1,8 @@
-const CACHE_NAME = "tb-pwa-v1";
+const CACHE_NAME = "tb-pwa-v2";
 const ASSETS = [
   "./",
-  "request.html",
-  "manifest.json"
+  "./index.html",
+  "./manifest.json"
 ];
 
 self.addEventListener("install", (e) => {
@@ -26,7 +26,6 @@ self.addEventListener("activate", (e) => {
 });
 
 self.addEventListener("fetch", (e) => {
-  // السماح لطلبات فايربيس بالمرور المباشر بدون كاش
   if (e.request.url.includes("firestore.googleapis.com") || e.request.url.includes("gstatic.com")) {
     return;
   }
