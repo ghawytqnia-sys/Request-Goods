@@ -1,0 +1,24 @@
+{
+  "name": "طلب بضاعة - FOX TEAM",
+  "short_name": "طلب بضاعة",
+  "description": "نظام تقديم طلبات المنتجات من المخازن",
+  "start_url": "request.html",
+  "display": "standalone",
+  "background_color": "#ececec",
+  "theme_color": "#14453D",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
